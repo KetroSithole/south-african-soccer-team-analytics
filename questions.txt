@@ -1,0 +1,58 @@
+SOCCER DATASET QUESTION BANK
+(Based on south_african_soccer_dataset.xlsx)
+
+------------------------------------------------------------
+BEGINNER LEVEL — Basic Data Understanding
+------------------------------------------------------------
+1. How many total players are in the dataset?
+2. Which columns are numerical and which are categorical?
+3. Which team has the most players in the dataset?
+4. What is the average age of all players?
+5. How many players are older than 30 years?
+6. Which city has the most players staying there?
+7. What is the minimum and maximum number of matches played?
+8. What’s the average pass accuracy of all players combined?
+9. How many players have scored more than 10 goals?
+10.How many players own a Toyota Hilux?
+
+------------------------------------------------------------
+INTERMEDIATE LEVEL — Aggregation, Grouping & Visualization
+------------------------------------------------------------
+1. Which team has the highest average number of goals?
+2. Which position (e.g., Forward, Midfielder, Defender) has the most goals on average?
+3. Create a bar chart showing total goals per team.
+4. Show a pie chart of how many players come from each city.
+5. Which player has the highest assist-to-goal ratio?
+6. What is the correlation between minutes played and goals?
+7. Find the top 5 players by goals and display their stats in descending order.
+8. Which team has the best average pass accuracy?
+9. What’s the average number of kids per team?
+10.Create a scatter plot showing Age vs Goals. Do you notice any trends?
+
+------------------------------------------------------------
+ADVANCED LEVEL — Insight, Logic & Creativity
+------------------------------------------------------------
+1. Do players with more matches played tend to have higher goals? Prove this with a graph and correlation value.
+2. Create a new column called "Goals per Match" and find which player has the best efficiency.
+3. Which city has players with the highest average pass accuracy?
+4. Identify the most disciplined team (fewest yellow and red cards combined).
+5. Create a histogram of player ages — what does the age distribution look like?
+6. Do players who own a luxury car (BMW, Mercedes, Audi) perform better in goals or assists?
+7. Find the team with the youngest average age.
+8. Create a heatmap showing correlations between numerical columns — which pairs are most related?
+9. Which position has the most consistent pass accuracy (lowest standard deviation)?
+10.Create a short written report summarizing who the best overall player is and why.
+
+------------------------------------------------------------
+BONUS: DATA CLEANING & ENGINEERING CHALLENGES
+------------------------------------------------------------
+1. Rename "Pass Accuracy (%)” to "Pass_Accuracy".
+2. Check for and handle any missing or null values.
+3. Sort players alphabetically by "Team" and then by "Player Name".
+4. Export a filtered Excel file containing only players with >5 goals and >3 assists.
+5. Create a new column called "Total Cards" = "Yellow Cards" + "Red Cards".
+6. Find which player has the highest number of cards and identify their team.
+7. Normalize the "Goals" column (convert to percentage of total goals scored).
+8. Filter players with "Pass_Accuracy" above the dataset average and plot them by team.
+9. Create a pivot table showing average goals and assists per team.
+10.Save your final cleaned dataset to a new file named cleaned_soccer_data.xlsx.
